@@ -4,7 +4,7 @@ if [ `echo $var | wc -c` -eq 2 ]
 then
 if [[ $var == [a-z] ]]
 then 
-echo "true"
+echo "True"
 else 
 echo "false"
 fi
